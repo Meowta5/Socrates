@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>981</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="Button_main">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius:  10px;
+    
+	background-color: rgb(193, 193, 193);
+    
+	color: rgb(218, 218, 218);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Главная</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>иконки/house2.png</normaloff>иконки/house2.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_settings">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    color:  rgb(255, 255, 255);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+   </property>
+   <property name="text">
+    <string>Настройки</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>иконки/settings2.png</normaloff>иконки/settings2.png</iconset>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>771</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>530</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#7a7a7a;&quot;&gt;Авторы: Хон Марк, Гриценко Дмитрий&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>240</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-radius:  10px;
+    
+	background-color: rgb(193, 193, 193);
+    
+	color: rgb(218, 218, 218);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Начать игру</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QPushButton" name="Button_page1_main">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>22</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+     </property>
+     <property name="text">
+      <string>Основное</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>иконки/основное2.png</normaloff>иконки/основное2.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_page2_programms">
+     <property name="geometry">
+      <rect>
+       <x>324</x>
+       <y>20</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+     </property>
+     <property name="text">
+      <string>Программы</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>иконки/программы.png</normaloff>иконки/программы.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_page3_web">
+     <property name="geometry">
+      <rect>
+       <x>524</x>
+       <y>22</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+     </property>
+     <property name="text">
+      <string>Сайты</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>иконки/сайты.png</normaloff>иконки/сайты.png</iconset>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>-20</x>
+       <y>65</y>
+       <width>771</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>761</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page_perekl3">
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>сайт 1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>444</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>сайт 3</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>234</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>сайт 2</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>634</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>сайт 4</string>
+       </property>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>751</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page_7">
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_10">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Ссылку</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_11">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Сайт 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Ссылка для открытие сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>220</y>
+           <width>211</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f10000;&quot;&gt;При разделение названий используйте ;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_9">
+        <widget class="QLineEdit" name="lineEdit_12">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Ссылку</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_15">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Сайт 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_13">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Ссылка для открытие сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_10">
+        <widget class="QLineEdit" name="lineEdit_14">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Ссылку</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_16">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Сайт 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_15">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_28">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Ссылка для открытие сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_8">
+        <widget class="QLineEdit" name="lineEdit_16">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Ссылку</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_17">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_29">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_30">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Сайт 4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_17">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Ссылка для открытие сайта&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_perekl1">
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>30</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Ответная фраза&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>70</y>
+         <width>241</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Введите число</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>20</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Сброс Настроек&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>70</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>Сброс</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>240</y>
+         <width>271</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Переключение микрофона&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>240</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(193, 193, 193);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>274</x>
+         <y>70</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>включить</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>70</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>выключить</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>40</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Время прослушки&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_36">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>90</y>
+         <width>141</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Напишите число больше 0</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>110</y>
+         <width>101</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>сохранить</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_perekl2">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>Программа 1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>234</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>Программа 2</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>444</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>Программа 3</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>634</x>
+         <y>0</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+       </property>
+       <property name="text">
+        <string>Программа 4</string>
+       </property>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>761</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <widget class="QWidget" name="page_3">
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Путь</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Программа 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Путь для открытие программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_5">
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Путь</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_7">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Программа 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Путь для открытие программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_6">
+        <widget class="QPushButton" name="pushButton_9">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_8">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Путь</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_9">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Программа 4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Путь для открытие программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_4">
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>10</y>
+           <width>131</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Программа 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>270</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border-radius:  10px;
+    background-color: rgb(193, 193, 193);
+    
+	color: rgb(171, 171, 171);
+    
+	
+	color: rgb(0, 0, 0);
+   
+}
+
+QPushButton:pressed {
+    
+	background-color: rgb(154, 154, 154);
+}</string>
+         </property>
+         <property name="text">
+          <string>Готово</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>иконки/free-icon-done-4123617.png</normaloff>иконки/free-icon-done-4123617.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>100</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Путь</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>50</y>
+           <width>321</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Путь для открытие программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>140</y>
+           <width>221</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Названия программы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>190</y>
+           <width>241</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+ 	
+	background-color: rgb(229, 229, 229);
+	border-radius:  10px;
+	
+	padding-left:	20px;
+	padding-right:	20px;
+	
+}
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Введите Название</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>220</y>
+           <width>211</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f10000;&quot;&gt;При разделение названий используйте ;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>771</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>иконки/wp2.png</pixmap>
+     </property>
+    </widget>
+    <zorder>label_8</zorder>
+    <zorder>Button_page1_main</zorder>
+    <zorder>Button_page2_programms</zorder>
+    <zorder>Button_page3_web</zorder>
+    <zorder>line_2</zorder>
+    <zorder>stackedWidget_2</zorder>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>151</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>иконки/image_sokrat.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>21</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>140</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#3a3a3a;&quot;&gt;СОКРАТ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>2</y>
+     <width>211</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>иконки/font2.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_7</zorder>
+  <zorder>Button_main</zorder>
+  <zorder>Button_settings</zorder>
+  <zorder>stackedWidget</zorder>
+  <zorder>label_3</zorder>
+  <zorder>line</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
